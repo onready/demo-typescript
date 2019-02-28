@@ -1,6 +1,6 @@
 # Demo Typescript + Express
 
-### Demo project with Typescript + Express
+Demo project with Typescript + Express
 
 #### How to run this project
 
