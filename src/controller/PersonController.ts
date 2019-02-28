@@ -9,7 +9,7 @@ export default class PersonController {
     this.personService = personService;
   }
 
-  public findAll(request: Request, response: Response): void {
+  findAll(request: Request, response: Response): void {
     response.json(this.personService.findAll());
   }
 
