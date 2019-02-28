@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import PersonService from "../service/PersonService";
+import Person from "../domain/Person";
 
 export default class PersonController {
 
@@ -10,7 +11,8 @@ export default class PersonController {
   }
 
   findAll(request: Request, response: Response): void {
-    response.json(this.personService.findAll());
+    const persons : Array<Person> = this.personService.findAll();
+    response.json(persons);
   }
 
 }
