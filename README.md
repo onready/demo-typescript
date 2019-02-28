@@ -1,8 +1,8 @@
 # Demo Typescript + Express
 
-## Demo project with Typescript + Express
+### Demo project with Typescript + Express
 
-### How to run this project
+#### How to run this project
 
 ```
 npm install
